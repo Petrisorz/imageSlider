@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100vh;
+}
+.ramaPhoto{
+    width :300px;
+    height: 300px;
+    margin: auto auto;
+}
+.ramaPhoto img{
+    width:300px;
+    height: 300px;
+}
+.galeryBody{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    margin: auto auto;
+}
+.hidden{
+    display: none;
+}
+.navigationArrows{
+    height: 300px;
+    width: 2rem;
+}
+.outerBody{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+}
+main {
+    width: 80%;
+    height: 100vh;
+    padding: 1rem;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.controlButtons{
+    text-align: center;
+}
